@@ -1,0 +1,260 @@
+Pokémon Proto Credits
+======================
+
+Thank you to everyone whose public resources, plugins, sprites, tilesets, sound effects, music, and other assets helped make this project possible.
+
+Pokémon Proto is a non-commercial fan project. Pokémon and related trademarks belong to their respective owners. All borrowed resources remain credited to their original creators.
+
+Special Thanks
+--------------
+
+- The Reborn team
+  - Thank you for allowing people to use your resources.
+
+- BellBlitzKing
+  - Pokémon Sound Effects Pack: Gen 1 to Gen 7 - All Attacks SFX.
+
+- Glitchxcity
+  - Music
+  - https://soundcloud.com/glitchxcity
+
+
+Animation Projects
+------------------
+
+- Gen 8 Animation Project
+  - Project lead: StCooler
+  - Additional contributors: DarrylBD99, WolfPP, ardicoozer, riddlemeree
+
+- Gen 9 Animation Project
+  - Project leads: KRLW890, Nut0066
+  - Additional contributors: Toxillian, QuahogTheCreator, Lcorp, Shashu-Greninja
+
+
+Scripts and Plugin Resources
+----------------------------
+
+- Caruban
+- Lucidious89
+- Eskiss
+  - Legend Plate script basis.
+- StCooler
+  - Original PLA Expansion script for the Gen 8 Project in v18.
+  - Status sprites.
+- PorousMist and curryofthepast
+  - Adapted the PLA Expansion script for v19.1 use.
+
+
+PBS Resources
+-------------
+
+- Caruban
+- Lucidious89
+- PorousMist
+  - Updated ability, item, and move descriptions.
+- DJChaos
+  - TM items.
+- Futuresushi
+  - Shortened ability and move descriptions.
+
+
+Pokémon Battler Sprites
+-----------------------
+
+- Gen 1-5 Pokémon Sprites
+  - veekun
+
+- Gen 6 Pokémon Sprites
+  - All contributors to the Smogon X/Y Sprite Project
+
+- Gen 7 Pokémon Sprites
+  - All contributors to the Smogon Sun/Moon Sprite Project
+
+- Gen 8 Pokémon Sprites
+  - All contributors to the Smogon Sword/Shield Sprite Project
+
+- PLA Pokémon Sprites
+  - Smogon Gen 8 Sprite Project
+  - https://www.smogon.com/forums/threads/smogon-sprite-project.3647722/
+  - Blaquaza, KingOfThe-X-Roads, KattenK, Travis, G.E.Z., SpheX, Hematite, SelenaArmorclaw
+
+- Gen 9 Pokémon Sprites
+  - KingOfThe-X-Roads, Mak, Caruban, jinxed, leParagon, Sopita_Yorita, Azria, Mashirosakura, JordanosArt, Abnayami, OldSoulja, Katten, Divaruta 666, Clara, Skyflyer, AshnixsLaw, ace_stryfe
+
+- Gen 9 Vanilla-Style Sprites
+  - KingOfThe-X-Roads, Mak, Caruban, jinxed, leParagon, Sopita_Yorita, Azria, Mashirosakura, JordanosArt, Scept, NanaelJustice, SoyChim, KRLW890, AnonAlpaca, PokeJminer, Red7246, Carmanekko, Eduar, Lykeron, GriloKapu10, Mesayas, Erkey830, QDylm, PorousMist, OldSoulja, AlexandreV2.0, Z-nogyroP, lennybitao, Ruben1986, GRAFAIAIMX, Blaquaza, KattenK, Travis, G.E.Z., SpheX, Hematite
+
+- PLZA Sprites
+  - Caruban, ace_stryfe, KingOfThe-X-Roads, camiloveso, Mak
+
+
+Pokémon Icon Sprites
+--------------------
+
+- Gen 1-6 Pokémon Icon Sprites
+  - Alaguesia, harveydentmd
+
+- Gen 7 Pokémon Icon Sprites
+  - Marin, MapleBranchWing, contributors to the DS Styled Gen 7+ Repository
+
+- Gen 8 Icon Sprites
+  - Larry Turbo, Leparagon
+
+- Shiny Icon Sprites
+  - StarrWolf, Pokémon Shattered Light Team
+
+- PLA Pokémon Icon Sprites
+  - LuigiTKO
+
+- Shiny PLA Pokémon Icon Sprites
+  - StarrWolf
+  - Recolored from LuigiTKO icons.
+
+- Gen 9 Icon Sprites
+  - ezerart, JordanosArt
+
+- Shiny Gen 9 Icon Sprites
+  - ezerart, JordanosArt
+
+- PLA Vanilla Icon Sprites
+  - LuigiTKO, Pikafan2000, Cesare_CBass, Vent, Cesare_Cbass, MultiDiegoDani, leParagon, JWNutz
+  - Additional thanks to Pokémon Icons Act 2.9 - Teracristalizando
+  - https://whackahack.com/foro/threads/pokemon-icons-act-2-9-teracristalizando-07-08-2022.63896/
+
+- Gen 9 Vanilla Icon Sprites
+  - Vent, Katten, leParagon, Cesare_CBass, AlexandreV2.0, Carmanekko, GRAFAIAIMX
+  - Additional thanks to Axel Loquendo, CarmaNekko, Divaruta 666, Okyo, JLauz735, and ClaraDragon for Iconos 9na Gen GBA completos
+  - https://whackahack.com/foro/threads/iconos-9na-gen-gba-completos-act-04-03-2023.67908/
+
+- PLZA Icon Sprites
+  - ezerart, camiloveso
+
+
+Pokémon Overworld Sprites
+-------------------------
+
+- Gen 1-5 Pokémon Overworlds
+  - MissingLukey, help-14, Kymoyonian, cSc-A7X, 2and2makes5, Pokegirl4ever, Fernandojl, Silver-Skies, TyranitarDark, Getsuei-H, Kid1513, Milomilotic11, Kyt666, kdiamo11, Chocosrawlooid, Syledude, Gallanty, Gizamimi-Pichu, Zyon17, LarryTurbo, spritesstealer
+
+- Gen 6+ Berry Tree Overworlds
+  - Anarlaurendil
+
+- Gen 6 Pokémon Overworlds
+  - princess-pheonix, LunarDusk, Wolfang62, TintjeMadelintje101, piphybuilder88
+
+- Gen 7 Pokémon Overworlds
+  - Larry Turbo, princess-pheonix
+
+- Gen 8 Pokémon Overworlds
+  - SageDeoxys, Wolfang62, LarryTurbo, tammyclaydon
+
+- PLA Pokémon Overworlds
+  - Boonzeet, DarkusShadow, princess-phoenix, Ezeart, WolfPP
+
+- Gen 9 Pokémon Overworlds
+  - Azria, DarkusShadow, EduarPokeN, Carmanekko, StarWolff, Caruban
+
+- PLZA Pokémon Overworlds
+  - DarkusShadow
+
+
+Pokémon Footprints
+------------------
+
+- PLA-Gen 9 Pokémon Footprints
+  - Caruban
+
+
+Pokémon Cries
+-------------
+
+- Gen 1-6 Pokémon Cries
+  - Rhyden
+
+- Gen 7 Pokémon Cries
+  - Marin, Rhyden
+
+- Gen 8 Pokémon Cries
+  - Zeak6464
+
+- PLA Pokémon Cries
+  - Morningdew
+
+- Gen 9 Pokémon Cries
+  - Edited from Lightblade's Absol Gen 9 Cries compilation video
+    https://www.youtube.com/watch?v=KV6k3G62oT0
+  - Edited from HeroLinik's Pokémon Scarlet and Violet - Walking Wake and Iron Leaves Cries video
+    https://www.youtube.com/watch?v=weH2W3mQ35Y
+  - Edited from HeroLinik's Pokémon Scarlet and Violet - All Teal Mask Cries video
+    https://www.youtube.com/watch?v=pQr9z4ryE40
+  - Edited from Joya in UK's Indigo Disk Cries video
+    https://www.youtube.com/watch?v=2Qqr9IzgcKE
+
+- Mega Pokémon Cries (PLZA)
+  - Edited by DarkWolf13 from HeroLinik's Pokémon Legends Z-A - ALL MEGA EVOLUTION CRIES (Includes MEGA DIMENSION) video
+    https://www.youtube.com/watch?v=RICm--Uowf8
+
+
+Item Sprites
+------------
+
+- Gen 9 Item Sprites
+  - lichenprincess, Caruban, jinxed
+
+- PLA Item Sprites
+  - AztecCroc, 3DJackArt, Caruban, lichenprincess
+
+- PLZA Item Sprites
+  - Caruban
+
+
+Poké Ball Battle Animations and Summary Icons
+---------------------------------------------
+
+- Caruban
+- WolfPP
+  - Beast Ball battle animation.
+
+
+Resource Packs and Compilations
+-------------------------------
+
+- Gen 9 Pack
+  - Caruban
+
+- Gen 8/9 Resized Sprites
+  - http404error
+
+- Gen 8 Pack
+  - Golisopod User, UberDunsparce
+
+- Full PLA-Gen 9 Sprites Credit List
+  - https://docs.google.com/spreadsheets/d/1T-KC-4XDOeFKq0Z6tfN6Sz4JIlpaK7B8A0lbmBg9fNY/edit?usp=sharing
+
+
+Pokémon Map Tilesets
+--------------------
+
+-Ekat
+ 
+-Beertierchen
+ 
+-deh8l3a 
+
+-pinkscales 
+
+-Anonalpaca 
+
+-Idilio 
+
+-Heartless dragoon 
+
+-Skidmarc25 
+
+-Thewilddeadheros 
+
+-Vurtax 
+
+-Zein 
+
+-Zeo

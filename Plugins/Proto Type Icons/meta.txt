@@ -1,0 +1,5 @@
+Name = Proto Type Icons
+Version = 0.1.0
+Essentials = 21.1
+Scripts = 001_Proto_Type_Icons.rb
+Credits = namerif

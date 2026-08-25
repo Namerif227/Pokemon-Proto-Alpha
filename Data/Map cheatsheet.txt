@@ -1,0 +1,30 @@
+Map001= Intro
+
+Map022= Home Outside
+Map077= Home Inside
+
+Map032= Verdant Forest
+Map043= Verdant Clearing
+
+Map033= Betula Town
+Map078= Kristen Home
+Map079= Ethan Home
+Map080= Skulius Lab
+Map042= Betula House 1
+Map085= Betula House 2
+Map086= Betula House 3
+
+Map005= Route 1
+Map087= Route 1 Log House
+Map088= Route 1 Officer Break House
+
+Map006= Madera Town
+Map081= Madera Poke center
+Map082= Madera Town Mart
+Map090= Madera Log House 1
+Map091= Madera Log House 2
+Map092= Madera Log House 3
+Map086= Madera House 1
+Map086= Madera House 2
+Map086= 
+Map086= 
