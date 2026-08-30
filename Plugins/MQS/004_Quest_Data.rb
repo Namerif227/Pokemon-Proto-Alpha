@@ -177,14 +177,14 @@ module QuestModule
   PorchPirate = {
     :ID => "14",
     :Name => "Porch Pirate",
-    :QuestGiver => "Route 1 Cabin Man",
+    :QuestGiver => "Thomas",
     :Stage1 => "A man living in a log house lost a special package he ordered from Silph Co. He said the owner of the Madera Museum had been hanging around his home lately. Check the Madera Museum for clues.",
     :Stage2 => "You recovered the Silph Co. Return it to the man.",
     :Location1 => "Madera Town",
     :Location2 => "Route 1",
     :StageLabel1 => "1",
     :StageLabel2 => "2",
-    :QuestDescription => "A missing Silph Co. package, a suspicious museum owner, and a very questionable collection of artifacts. Help a Route 1 resident recover his stolen device.",
+    :QuestDescription => "A missing Silph Co. package, a suspicious museum owner, and a very questionable collection of artifacts. Help a Thomas recover his stolen package.",
     :RewardString => "Exp. Share"
 }
 
