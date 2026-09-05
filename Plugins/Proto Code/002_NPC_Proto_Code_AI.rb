@@ -56,6 +56,7 @@ module ProtoCode
     :BUGCATCHER          => 1,
     :AROMALADY           => 1,
     :ROCKER              => 1,
+    :RATBOSS             => 1,
 
     :YELLOWJACKETGRUNT   => 2,
     :YELLOWJACKETADMIN   => 2,

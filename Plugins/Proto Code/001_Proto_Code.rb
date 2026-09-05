@@ -47,9 +47,40 @@ module ProtoCode
   end
 
 #-----------------------------------------------------------------------------
-# Proto Code cursor graphic
+# Proto Code cursor/icon graphics
 #-----------------------------------------------------------------------------
+# Default fallback graphic.
 PROTO_CURSOR_GRAPHIC = "Graphics/UI/Battle/cursor_proto"
+
+# Type-specific graphics.
+# These files should be in Graphics/UI/Battle/
+# Do not include .png in the path.
+PROTO_CURSOR_GRAPHICS = {
+  :NORMAL   => "Graphics/UI/Battle/cursor_proto_normal",
+  :FIRE     => "Graphics/UI/Battle/cursor_proto_fire",
+  :WATER    => "Graphics/UI/Battle/cursor_proto_water",
+  :ELECTRIC => "Graphics/UI/Battle/cursor_proto_electric",
+  :GRASS    => "Graphics/UI/Battle/cursor_proto_grass",
+  :ICE      => "Graphics/UI/Battle/cursor_proto_ice",
+  :FIGHTING => "Graphics/UI/Battle/cursor_proto_fighting",
+  :POISON   => "Graphics/UI/Battle/cursor_proto_poison",
+  :GROUND   => "Graphics/UI/Battle/cursor_proto_ground",
+  :FLYING   => "Graphics/UI/Battle/cursor_proto_flying",
+  :PSYCHIC  => "Graphics/UI/Battle/cursor_proto_psychic",
+  :BUG      => "Graphics/UI/Battle/cursor_proto_bug",
+  :ROCK     => "Graphics/UI/Battle/cursor_proto_rock",
+  :GHOST    => "Graphics/UI/Battle/cursor_proto_ghost",
+  :DRAGON   => "Graphics/UI/Battle/cursor_proto_dragon",
+  :DARK     => "Graphics/UI/Battle/cursor_proto_dark",
+  :STEEL    => "Graphics/UI/Battle/cursor_proto_steel",
+  :FAIRY    => "Graphics/UI/Battle/cursor_proto_fairy"
+}
+
+def self.proto_cursor_graphic_for_item(item_id)
+  proto_type = capsule_type(item_id)
+  return PROTO_CURSOR_GRAPHIC if !proto_type
+  return PROTO_CURSOR_GRAPHICS[proto_type] || PROTO_CURSOR_GRAPHIC
+end
 
 #-----------------------------------------------------------------------------
 # Permanently consumes a Proto Capsule.
@@ -386,8 +417,12 @@ end
 
 # Tell the Fight Menu which special-button graphic to use.
 # Proto takes priority here, matching the toggle logic below.
- @scene.pbSetProtoCodeButton(
-  proto_possible || pbRegisteredProtoCode?(idxBattler)
+proto_item_id = nil
+proto_item_id = @battlers[idxBattler].item_id if @battlers[idxBattler]
+
+@scene.pbSetProtoCodeButton(
+  proto_possible || pbRegisteredProtoCode?(idxBattler),
+  proto_item_id
 )
 
 @scene.pbFightMenu(idxBattler, special_possible) do |cmd|
@@ -458,21 +493,47 @@ class Battle::Scene::FightMenu
   def initialize(viewport, z)
     proto_code_cursor_initialize(viewport, z)
 
-    proto_path = ProtoCode::PROTO_CURSOR_GRAPHIC
+  @protoCodeBitmap     = nil
+  @protoCodeBitmapPath = nil
+  @protoCodeButton     = false
 
-    # Fall back to the Mega graphic instead of crashing if the Proto file
-    # cannot be found.
-    if !pbResolveBitmap(proto_path)
-      proto_path = "Graphics/UI/Battle/cursor_mega"
-    end
-
-    @protoCodeBitmap = AnimatedBitmap.new(proto_path)
-    @protoCodeButton = false
+  set_proto_code_bitmap_from_item(nil)
   end
 
   unless method_defined?(:proto_code_cursor_dispose)
     alias proto_code_cursor_dispose dispose
   end
+
+  def set_proto_code_bitmap_from_item(item_id)
+  proto_path = ProtoCode.proto_cursor_graphic_for_item(item_id)
+
+  # Fall back to the default Proto graphic if the type-specific one is missing.
+  proto_path = ProtoCode::PROTO_CURSOR_GRAPHIC if !pbResolveBitmap(proto_path)
+
+  # Fall back to the Mega graphic instead of crashing if no Proto graphic exists.
+  proto_path = "Graphics/UI/Battle/cursor_mega" if !pbResolveBitmap(proto_path)
+
+  return if @protoCodeBitmapPath == proto_path
+
+  @protoCodeBitmap.dispose if @protoCodeBitmap
+  @protoCodeBitmap = AnimatedBitmap.new(proto_path)
+  @protoCodeBitmapPath = proto_path
+end
+
+def set_proto_code_button(value, item_id = nil)
+  value = !!value
+
+  set_proto_code_bitmap_from_item(item_id) if value
+
+  changed = (@protoCodeButton != value)
+  @protoCodeButton = value
+
+  refreshMegaEvolutionButton if changed || value
+end
+
+def proto_code_button=(value)
+  set_proto_code_button(value, nil)
+end
 
   def dispose
     @protoCodeBitmap&.dispose
@@ -529,12 +590,15 @@ end
 # Battle scene helper
 #===============================================================================
 class Battle::Scene
-  def pbSetProtoCodeButton(value)
+  def pbSetProtoCodeButton(value, item_id = nil)
     fight_window = @sprites["fightWindow"]
     return if !fight_window
-    return if !fight_window.respond_to?(:proto_code_button=)
 
-    fight_window.proto_code_button = value
+    if fight_window.respond_to?(:set_proto_code_button)
+      fight_window.set_proto_code_button(value, item_id)
+    elsif fight_window.respond_to?(:proto_code_button=)
+      fight_window.proto_code_button = value
+    end
   end
 end
   #-----------------------------------------------------------------------------

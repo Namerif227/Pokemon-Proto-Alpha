@@ -17,6 +17,7 @@ Special Thanks
 - Glitchxcity
   - Music
   - https://soundcloud.com/glitchxcity
+  - 1144ghost on itch.io
 
 
 Animation Projects
@@ -43,6 +44,7 @@ Scripts and Plugin Resources
   - Status sprites.
 - PorousMist and curryofthepast
   - Adapted the PLA Expansion script for v19.1 use.
+- Unreal Time System - by FL
 
 
 PBS Resources
@@ -87,6 +89,9 @@ Pokémon Battler Sprites
 - PLZA Sprites
   - Caruban, ace_stryfe, KingOfThe-X-Roads, camiloveso, Mak
 
+- Additional Sprites
+  - DOGMATICAL
+  - IRONUDON
 
 Pokémon Icon Sprites
 --------------------

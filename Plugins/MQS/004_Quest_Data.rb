@@ -179,7 +179,7 @@ module QuestModule
     :Name => "Porch Pirate",
     :QuestGiver => "Thomas",
     :Stage1 => "A man living in a log house lost a special package he ordered from Silph Co. He said the owner of the Madera Museum had been hanging around his home lately. Check the Madera Museum for clues.",
-    :Stage2 => "You recovered the Silph Co. Return it to the man.",
+    :Stage2 => "You recovered the Silph Co. Return it to the Thomas.",
     :Location1 => "Madera Town",
     :Location2 => "Route 1",
     :StageLabel1 => "1",
